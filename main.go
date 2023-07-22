@@ -1,11 +1,11 @@
-package krakend_eureka
+package main
 
 import (
 	"fmt"
 	"time"
 )
 
-func initPlugin() {
+func main() {
 	fmt.Println("init eureka plugin")
 	time.Now()
 	for true {
